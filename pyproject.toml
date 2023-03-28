@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "yandex-algorithms-2023"
+version = "0.1.0"
+description = ""
+authors = ["Alina M <crlin.m@gmail.com>"]
+readme = "README.md"
+packages = [{include = "yandex_algorithms_2023"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
